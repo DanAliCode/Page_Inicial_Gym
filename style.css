@@ -91,8 +91,9 @@ body{
 }
 
 .rodape{
-    position: absolute;
-    right: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Open Sans", serif;
     font-weight: 400;
     font-size: 18px;
