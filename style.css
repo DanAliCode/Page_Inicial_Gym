@@ -1,51 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* * {
-    background-color: #E3FFF8;
-} */
+* {
+    
+    opacity: 100%;
+}
 
 body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
     background-color: var(--backgroud--1);
     color: black;
 
 }
 .cabecalho{
-    color: #1F1534;
+    margin: 40px;
+    display: inline-flex;
+    color: #1F1534;  
+    justify-content: space-between; 
+    gap: 657px;
+}
+
+.cabecalho_image{
+    display: flex;
     
+
 }
 .cabecalho_menu{
+    display: flex;
+    gap: 48px;
+    transition: -0.04px;
+}
+
+.cabecalho_menu_link{
+    text-decoration: none;
+    font-family: "Mulish", serif;
+    font-size: 18;
+    text-decoration: none;
     color: #1F1534;
 }
 
 .hero{
-
-    color: var(--black);
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    gap: 100px;
 
 }
 .hero h1{
-
-    color: var(--black);
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
 
 
 }
 .hero h1 span{
-
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
     color: #89C5CC;
 }
 .hero_texto{
-
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
     color: #7D7987;
 }
-.hero_link{
 
+
+.hero_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 169px;
+    height: 53px;
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    gap: 10px;
+    border-radius: 5px;
     background-color: #69B99D;
     color: #F9F9F9;
+}
 
+.hero_conteudo_image{
+    gap: 600px;
 }
 
 .rodape{
+    position: absolute;
+    right: 1200px;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
     color: #000000;
 }
-.rodape_texto{
-    color: #000000;
-}
-
